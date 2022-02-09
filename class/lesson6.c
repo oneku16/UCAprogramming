@@ -41,6 +41,35 @@ int num1;
 int num2;
 
 
+// int main(){
+
+//     scanf("%d %d", &num1, &num2);
+
+//     switch (num1){
+
+//         case 100:
+//             printf("This is part of outer switch: %d\n", num1);
+
+//             switch(num2){
+//                 case 200:
+//                     printf("This is part of inner switch: %d\n", num2);
+//                     break;
+//             }
+//             break;
+//     }
+//     return 0;
+// }
+
+// ________________________________________________________________
+
+// ex 3
+
+#include <stdio.h>
+
+int num1;
+int num2;
+
+
 int main(){
 
     scanf("%d %d", &num1, &num2);
@@ -59,11 +88,6 @@ int main(){
     }
     return 0;
 }
-
-// ________________________________________________________________
-
-// ex 3
-
 
 
 
